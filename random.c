@@ -8,6 +8,7 @@ char randchar(){
     char allChars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 
     // generate random number between 0 and 26 (26 is not included)
+    // already seeded in the print_random.c file
     int characterIndex = rand()%26; 
     char ourCharacter = allChars[characterIndex]; 
 
